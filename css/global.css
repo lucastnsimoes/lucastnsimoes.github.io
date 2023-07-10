@@ -1,38 +1,40 @@
-body{
-    margin: 0;
-    font-family: 'Fira Sans',Arial, Helvetica, sans-serif;
-    color: #141414;
+body {
+  margin: 0;
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  color: #141414;
 }
 
-h1,h2,h3,p{
-    margin: 0px;
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-img{
-    max-width: 100%;
-    display: block;
-    height: auto;
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
-.subtitulo{
-    font-size: 8rem;
-    line-height: 1;
-    text-transform: uppercase;
-    word-break: break-all;
-    max-width: 4ch;
-
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
 }
 
-@media (max-width:800px){
-    .subtitulo{
-        font-size: 3rem;
-        text-transform: capitalize;
-        max-width: initial !important;
-    }
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
 }
